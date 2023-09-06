@@ -30,7 +30,7 @@ namespace BankAccountTest
         {
             while (true)
             {
-                Console.WriteLine("\nEnter a command \n[Command list:]\nnew - To create an account\ndeposit - to add money\nwithdraw - to withdraw money\n(Type 'exit' to quit):");
+                Console.WriteLine("\nEnter a command \n[Command list:]\nnew - To create an account\ndeposit - to add money\nwithdraw - to withdraw money\ninfo - to display Info\n(Type 'exit' to quit):");
                 string input = Console.ReadLine();
 
                 if (input.Equals("exit", StringComparison.OrdinalIgnoreCase))
